@@ -3,7 +3,7 @@ a=[x**2 for x in range(1,5)]
 print(a)
 
 
-#generator don't return all values as list comprehension do
+#DEfination: generator don't return all values as list comprehension do
 #generator expression differ than generator()
 b=(x**2 for x in range(5,11))
 print('generator object',b)
